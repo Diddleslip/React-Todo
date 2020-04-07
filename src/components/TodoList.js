@@ -20,7 +20,7 @@ class TodoList extends React.Component {
             <div>
             {this.props.todoList.map(X => {
               return(
-                <div style={this.props.divStyle}>
+                <div key={X.id} style={this.props.divStyle}>
                   <h1>{X.duty}</h1>
                   <h2>{X.id}</h2>
                   <h3>{X.completed}</h3>

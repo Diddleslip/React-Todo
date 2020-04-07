@@ -21,8 +21,7 @@ const todos = [
 ]
 
 const divStyle = {
-  margin: 'auto',
-  width: "50%",
+  width: "100%",
   border: '5px solid blue'
 };
 
@@ -49,7 +48,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
+        <h1>Todo List! </h1>
 
         <TodoList 
         divStyle = {divStyle}
